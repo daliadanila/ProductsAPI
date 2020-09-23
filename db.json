@@ -4,14 +4,17 @@
      "attributes": {
          "name": "Product 1",
          "description": "Some description",
-         "price_data": {
-             
+         "price_data": 
+             [{
              "price_pennies": 3800
-         },
-         "media": {
+             }]
+         ,
+         "media": 
              
-             "url": "https://picsum.photos/200/300"
-         }
+             [{
+              "url": "https://picsum.photos/200/300"
+             }]
+         
          
      }
  },
@@ -20,15 +23,15 @@
      "attributes": {
          "name": "Product 2",
          "description": "Some other description",
-         "price_data": {
-             
+         "price_data": 
+             [{
              "price_pennies": 1800
-         },
-         "media": {
-             
+             }]
+         ,
+         "media": 
+             [{
              "url": "https://picsum.photos/200/300"
-         }
-         
+             }]
      }
  },
  {
@@ -36,15 +39,15 @@
      "attributes": {
          "name": "Product 3",
          "description": "Description",
-         "price_data": {
-             
+         "price_data": 
+             [{
              "price_pennies": 1100
-         },
-         "media": {
-             
+             }]
+         ,
+         "media": 
+             [{
              "url": "https://picsum.photos/200/300"
-         }
-         
+             }]
      }
  }]
 }
